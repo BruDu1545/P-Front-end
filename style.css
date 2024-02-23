@@ -1,0 +1,10 @@
+*body{
+    margin: 0;
+    padding: 0;
+}
+
+/* IMAGEM DE FUNDO */
+
+.fundo_img{
+    background: url("Site Eron Domingues/img/logoEron-removebg-preview.png") no-repeat center center fixed ;
+}
