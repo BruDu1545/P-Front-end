@@ -1,0 +1,80 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+/* IMAGEM DE FUNDO */
+/*
+.fundo_img{
+    background: url("logoEron-removebg-preview.png") no-repeat center center fixed ;
+}
+*/
+
+/* CABEÇALHO E TOPO */
+
+header {
+    text-align: center;
+}
+
+.titulo_header {
+    font-size: 55px;
+    display: grid;
+    place-items: center;
+}
+
+.barra_botoes {
+    padding-top: 0;
+    margin-top: -15px;
+    display: inline-block;
+}
+
+.barra_botoes li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.barra_botoes li a {
+    text-decoration: none;
+    color: black;
+}
+
+.barra_botoes li a:hover{
+    text-decoration: underline;
+}
+
+.pagina_inicial_a {
+    background-color: blue; /* Cor de fundo azul */
+    color: white; /* Cor do texto branco */
+    padding: 5px 10px; /* Espaçamento interno */
+  }
+
+/* MEIO */
+
+.espaco_imagem_texto {
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 70px;
+    text-align: center;
+}
+
+.Imagem_do_texto {
+    width: 600px;
+    height: auto;
+}
+
+.texto_da_imagem {
+    font-size: 21px;
+}
+
+
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+}
+
+p span {
+    font-size: 10px;
+}
