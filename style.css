@@ -33,7 +33,7 @@ header {
     margin-right: 15px;
 }
 
-.barra_botoes li a {
+.sobre_botao, .Area_do_aluno, .Projetos_escolares, .contato_botao {
     text-decoration: none;
     color: black;
 }
@@ -43,9 +43,10 @@ header {
 }
 
 .pagina_inicial_a {
-    background-color: blue; /* Cor de fundo azul */
-    color: white; /* Cor do texto branco */
-    padding: 5px 10px; /* Espaçamento interno */
+    background-color: blue; 
+    text-decoration: none;
+    color: white; 
+    padding: 5px 10px; 
   }
 
 /* MEIO */
@@ -66,8 +67,6 @@ header {
 .texto_da_imagem {
     font-size: 21px;
 }
-
-
 
 /* RODAPÉ */
 
