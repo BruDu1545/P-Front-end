@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html> -->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula Eron Domingues</title>
+</head>
+<header>
+    <!--header-->
+</header>
+
+<body>
+    <img src="" alt=""><!--imagems do eron passando-->
+    <h1>Matricula e procedimentos</h1>
+    <p>como fazer Matricula</p>
+    <p>porque estudar aqui</p>
+    <div class="N-E-M">
+        <a href="Normal">
+            <h3>Matricula do ensino fundamental  I e II e NEM</h3>
+        </a>
+    </div><!--N-E-M-->
+    <div class="Cursos_EM">
+        <h2>Cursos tecnicos profissionalizantes no encino medio</h2>
+    <div class="T-D-S">
+        <a href="TDS">
+            <h6>TDS</h6>
+            <img src="LogoTDS" alt="Logo do curso tecnico profissionalizante em desinvilvimento de sistemas">
+        </a><!--animar imagens e aparecer texto-->
+    </div><!--T-D-S-->
+    <div class="F-D">
+        <a href="FORMAÇAO">
+            <h6>FORMAÇAO</h6>
+            <img src="LogoFD" alt="Logo do curso tecnico profissionalizante em formaçao de docentes">
+        </a>
+    </div><!--F-D-->
+    <div class="E-F-M">
+        <a href="ENFERMAGEM">
+            <h6>ENFERMAGEM</h6>
+            <img src="LogoEFM" alt="Logo do curso tecnico profissionalizante em enfermagem">
+        </a>
+    </div><!--E-F-M-->
+</div><!--Cursos_EM-->
+    <section>
+        <h3>Normal</h3>
+        <P>Normal oq e, e porque fazer, e ter afinidade </P>
+        <a href="Formulario.html">fazer a matricula</a>
+        <BUTTon onclick="MatriculaPDF">imprimir o pdf e fazer no colegio</BUTTon>
+    </section>
+    <section>
+        <h3>TDS</h3>
+        <P>tds oq e, e porque fazer, e ter afinidade </P>
+        <a href="Formulario.html">fazer a matricula</a>
+        <BUTTon onclick="MatriculaPDF">imprimir o pdf e fazer no colegio</BUTTon>
+    </section>
+    <section>
+        <h3>FORMAÇAO</h3>
+        <P>FORMAÇAO oq e, e porque fazer, e ter afinidade </P>
+        <a href="Formulario.html">fazer a matricula</a>
+        <BUTTon onclick="MatriculaPDF">imprimir o pdf e fazer no colegio</BUTTon>
+    </section>
+    <section>
+        <h3>ENFERMAGEM</h3>
+        <P>ENFERMAGEM oq e, e porque fazer, e ter afinidade </P>
+        <a href="Formulario.html">fazer a matricula</a>
+        <BUTTon onclick="MatriculaPDF">imprimir o pdf e fazer no colegio</BUTTon>
+    </section>
+</body>
+<footer>
+    <!--footer-->
+</footer>
+
+</html>
