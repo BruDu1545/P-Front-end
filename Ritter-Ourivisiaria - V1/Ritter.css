@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+}
+
+.img-fundo {
+    background: url("IMG/imagem_2024-01-30_114227127-removebg-preview\ \(1\).png") no-repeat center center fixed;
+    background-size: 55%;
+}
+
+.titulo {
+    background-color: rgb(29, 28, 28);
+    color: white;
+    place-items: center;
+    display: grid;
+    border-radius: 0px 0px 35px 35px;
+}
+
+.mid-com-foto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.texto {
+    display: grid;
+    background-color: #1b1b1b;
+    border-radius: 15px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 35px;
+    font-size: 25px;
+    margin-left: 85px;
+    margin-right: 52px;
+
+    .ouro {
+        color: #cfb878;
+    }
+
+    .prata {
+        color: rgb(142, 140, 140);
+    }
+
+    .lugar {
+        margin-bottom: 2px;
+    }
+
+}
+
+.faxada {
+    border-radius: 15px;
+    margin-right: 80px;
+}
+
+.titulo2 {
+    color: white;
+    font-size: 55px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 44px;
+    padding: 15px;
+    display: grid;
+    place-items: center;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.meio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 45px;
+    border-radius: 15px;
+    margin-left: 60px;
+
+    #img1 {
+        border-radius: 15px;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    #img1:hover {
+        transform: scale(1.025);
+        transition: 0.2s;
+    }
+
+    #img2 {
+        display: block;
+        border-radius: 15px;
+    }
+
+    #img2:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    #img3 {
+        display: block;
+        border-radius: 15px;
+    }
+
+    #img3:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    #img4 {
+        display: block;
+        border-radius: 15px;
+    }
+
+    #img4:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    #img5 {
+        display: block;
+        border-radius: 15px;
+    }
+
+    #img5:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+
+    #img6 {
+        display: block;
+        border-radius: 15px;
+    }
+
+    #img6:hover {
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+}
+
+.texto-img {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 35px;
+    background-color: #1b1b1b;
+    margin-right: 60px;
+}
+
+.texto-ld-img {
+    display: grid;
+    place-items: center;
+}
+
+.titulo-ld-img {
+    font-size: 22px;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+
+    .botao a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+    }
+
+    .numero {
+        margin-bottom: -5px;
+    }
+
+    .email {
+        margin-bottom: -8px;
+    }
+
+    .local {
+        margin-bottom: -15px;
+    }
+
+    .cartao1 {
+        border: 1px solid #0f0f0f;
+        border-radius: 5px;
+        margin-bottom: -25px;
+    }
+
+    .cartao2 {
+        border: 1px solid #0f0f0f;
+        border-radius: 5px;
+        margin-bottom: -25px;
+    }
+
+    .direitos {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+.titulo3 {
+    color: white;
+    font-size: 55px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 44px;
+    padding: 15px;
+    display: grid;
+    place-items: center;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.final {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    background-color: rgba(29, 29, 29, 0.911);
+    border-radius: 25px;
+    padding: 55px;
+    margin-bottom: 45px;
+    margin-top: 55px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    text-align: center;
+
+    span {
+        color: orange;
+        font-size: 12px;
+    }
+
+    .aliancas {
+        border-radius: 999px;
+    }
+
+    .Ali-reta {
+        transition: 0.5s;
+    }
+
+    .Ali-reta:hover {
+        transform: scale(1.05);
+    }
+
+    .par-de-ali {
+        transition: 0.5s;
+    }
+
+    .par-de-ali:hover {
+        transform: scale(1.05);
+    }
+
+    .anel-soli {
+        transition: 0.5s;
+    }
+
+    .anel-soli:hover {
+        transform: scale(1.05);
+    }
+
+    .par-6mm {
+        transition: 0.5s;
+    }
+
+    .par-6mm:hover {
+        transform: scale(1.05);
+    }
+
+    .anel-noi {
+        transition: 0.5s;
+    }
+
+    .anel-noi:hover {
+        transform: scale(1.05);
+    }
+
+    .anel-eli {
+        transition: 0.5s;
+    }
+
+    .anel-eli:hover {
+        transform: scale(1.05);
+    }
+
+    .Par-namoro {
+        transition: 0.5s;
+    }
+
+    .Par-namoro:hover {
+        transform: scale(1.05);
+    }
+
+    .ali-trad {
+        transition: 0.5s;
+    }
+
+    .ali-trad:hover {
+        transform: scale(1.05);
+    }
+}
