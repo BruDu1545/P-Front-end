@@ -1,28 +1,55 @@
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
+.conteiner{
+    max-width: 800px;
+    margin: 0 auto;  
+    padding: 20px;  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+    margin-top: 20px;
 }
 
-label{
-    margin: 10px 0;
+.conteiner figure{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-input, textarea{
-    margin: 5px 0;
-    padding: 5px;
-    width: 300px;
+.conteiner img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
 }
 
-button{
-    padding: 8px;
-    background-color: #444;
-    color: white;
-    border: none;
-    cursor: pointer;
+.conteiner figure::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transition: opacity 0.3 ease;
 }
 
-button:hover{
-    background-color: blue;
+.conteiner figure:hover::after{
+    opacity: 0.5;
+}
+
+.conteiner figcaption{
+    position: absolute; 
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    text-align: center;
+    transition: bottom 0.3s ease;
+}
+
+.conteiner figure:hover figcaption{
+    bottom: 0;
 }
